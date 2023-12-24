@@ -9,10 +9,10 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// App.get('/', (req, res) => {
+App.get('/', (req, res) => {
   
-//   res.send('wilkommen')
-// })
+  res.send('wilkommen')
+})
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
